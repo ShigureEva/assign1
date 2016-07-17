@@ -16,12 +16,12 @@ void setup(){
   size(640,480);
   x = 0;
   
-  fighterImg = loadImage("IMG/fighter.png");
-  bgImg = loadImage("IMG/bg1.png");
-  bg2Img = loadImage("IMG/bg2.png");
-  EnemyImg = loadImage("IMG/enemy.png");
-  hpImg = loadImage("IMG/hp.png");
-  TImg = loadImage("IMG/treasure.png");
+  fighterImg = loadImage("img/fighter.png");
+  bgImg = loadImage("img/bg1.png");
+  bg2Img = loadImage("img/bg2.png");
+  EnemyImg = loadImage("img/enemy.png");
+  hpImg = loadImage("img/hp.png");
+  TImg = loadImage("img/treasure.png");
   
   y = floor(random(500));
   w = floor(random(300));
